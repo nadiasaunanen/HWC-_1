@@ -1,0 +1,11 @@
+﻿Console.Write("Введите первое число: ");
+double firstDigit = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите второе число: ");
+double secondDigit = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите третье число: ");
+double thirdDigit = Convert.ToDouble(Console.ReadLine());
+double maximal = firstDigit;
+if (firstDigit > maximal) maximal = firstDigit;
+if (secondDigit > maximal) maximal = secondDigit;
+if (thirdDigit > maximal) maximal = thirdDigit;
+Console.WriteLine("Наибольшее чило: " + maximal);
